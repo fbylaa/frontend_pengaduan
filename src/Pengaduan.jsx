@@ -24,8 +24,6 @@ const Pengaduan = ()=> {
                     <Kategori nama="Jembatan Rusak" onClick={() => handleClick(2)}/>
                     <Kategori nama="Jalan Rusak" onClick={() => handleClick(3)}/>
                     <Kategori nama="Keluhan Lain" onClick={() => handleClick(4)}/>
-                    <Kategori nama="Kritik" onClick={() => handleClick(5)}/>
-                    <Kategori nama="Saran" onClick={() => handleClick(6)}/>
                 </div>
                 <div>
                     {active === 0 && <Form title={'Pengaduan Sosial'} img={Img1}/> }
@@ -33,8 +31,6 @@ const Pengaduan = ()=> {
                     {active === 2 && <Form title={'Pengaduan Jembatan Rusak'} img={Img3}/> }
                     {active === 3 && <Form title={'Pengaduan Jalan Rusak'} img={Img4}/> }
                     {active === 4 && <Form title={'Pengaduan Keluhan Lain'} img={''}/> }
-                    {active === 5 && <Form title={'Kritik'} img={''}/> }
-                    {active === 6 && <Form title={'Saran'} img={''}/> }
                 </div>
             </div>
         </div>
