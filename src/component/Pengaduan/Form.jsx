@@ -11,7 +11,7 @@ const Form = ({title, img}) => {
     return (
         <form action="#" className='bg-gray-300 w-1/2 py-5 mx-auto rounded-md my-5'>
             {notif &&
-                <div className='bg-green-400 p-3 rounded-lg w-full'>Pesan Terkirim</div>
+                <div className='bg-green-400 p-3 rounded-lg w-full'>Pesan Terkirimmmm</div>
             }
             <div className='my-4'>
                 <h1 className='text-3xl'>{title}</h1>
